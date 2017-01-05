@@ -1,70 +1,64 @@
-/** PHONE SLUG **/
-
-$background: blue;
-$text-color: #FFF;
-$phone-color: #FFF;
-
-
 .phone-slug {
-  background: $background;
-  padding-top:25px;
-  padding-bottom:0px;
-}
-.phone-slug h6 {
-  font-size:18px;
-  color:$text-color;
-  line-height:19px;
-  font-weight:400;
-  margin-bottom:4px;
-}
-.phone-slug .new-hotline {
-  font-size:36px;
-  font-weight:700;
-  line-height:25px;
-}
-.phone-slug .new-hotline a {
-  color:$phone-color;
-}
-.device-xs .phone-slug .new-hotline, .device-xxs .phone-slug .new-hotline {
-  margin-bottom:20px;
-}
-.phone-slug .old-hotline {
-  font-size:21px;
-  color:#FFF;
-  margin-top:15px;
-}
-.phone-slug .old-hotline a {
-  color:$phone-color;
-  font-weight:700;
-}
-.phone-slug  .col-sm-6.tleft {
-  border-left:1px solid #FFF;
-}
-.phone-slug .button {
-  margin:2.5px 0;
-}
-.device-xxs .phone-slug .button {
-  padding-left:15px;
-  padding-right:15px;
-  width:100%;
-}
+  padding:20px 0;
+  background:#FFF;
+  .col-sm-6:nth-of-type(1) {
+    text-align:right;
+    @media (max-width:767px) {
+      text-align:center;
+    }
+  }
+  .col-sm-6:nth-of-type(2) {
+    text-align:left;
+    border-left:2px solid #5E6260;
+    @media (max-width:767px) {
+      text-align:center;
+      border-left:none;
+    }
+  }
+  .new-hotline-text {
+    /* New Patient Hotline: */
+    font-family: $proxima;
+    font-size: 21px;
+    color: #5E6260;
+    font-weight:400;
+    margin-bottom:-15px;
 
-.device-xs .phone-slug h6, .device-xxs .phone-slug h6 {
-  font-size:24px;
-  font-weight:300;
-  margin-bottom:15px;
-}
-
-.device-xs .phone-slug .col-sm-6.tright, .device-xxs .phone-slug .col-sm-6.tright {
-  text-align:center !important;
-}
-.device-xs .phone-slug .col-sm-6.tleft, .device-xxs .phone-slug .col-sm-6.tleft {
-  text-align:center !important;
-  border-left:none;
-}
-
-.device-xs .old-hotline, .device-xxs .old-hotline {
-  font-size:24px;
-  font-weight:300;
-  line-height:35px !important;
+  }
+  .new-hotline-phone {
+    font-family: $proxima;
+    font-size: 40px;
+    color: #079698;
+    letter-spacing: -0.56px;
+  }
+  .old-hotline-text {
+    /* Existing patients of: */
+    font-family: $proxima;
+    font-size: 21px;
+    color: #5E6260;
+    line-height: 21px;
+    margin-bottom:0;
+    @media (max-width:767px) {
+      line-height:28px !important;
+    }
+  }
+  .old-hotline-phone {
+    font-family: $proxima;
+    font-size: 21px;
+    color: #5E6260;
+    line-height: 21px;
+    margin-bottom:0;
+    @media (max-width:767px) {
+      color:#079698;
+      font-size:26px;
+      line-height:10px;
+    }
+  }
+  a:hover {
+    text-decoration:none;
+  }
+  .button {
+  @media (max-width:767px) {
+    margin-bottom:10px;
+  }
+  }
 }
