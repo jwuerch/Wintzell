@@ -83,6 +83,12 @@
     letter-spacing: -0.84px;
     line-height: 40px;
     margin-bottom:10px;
+    @media (max-width:767px) {
+      font-size:48px;
+    }
+    @media (max-width:480px) {
+      font-size:36px;
+    }
   }
   h3 {
     font-family: $libre;
@@ -91,6 +97,15 @@
     color: #079698;
     letter-spacing: -0.34px;
     line-height: 35px;
+    @media (max-width:767px) {
+      font-size:22px;
+      line-height:30px;
+    }
+    @media (max-width:480px) {
+      font-size:20px;
+      line-height:28px;
+
+    }
   }
   .image-carousel {
     h6 {
