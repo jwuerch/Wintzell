@@ -1,0 +1,76 @@
+#services-1, #services-2, #services-3, #services-4 {
+  h2 {
+    font-family: $proxima;
+    font-size: 60px;
+    color: #1B3C3C;
+    line-height: 45px;
+    font-weight:400;
+    margin-bottom:90px;
+
+  }
+  h4 {
+    /* Sedation Dentistry: */
+    font-family: $proxima;
+    font-size: 40px;
+    color: #1B3C3C;
+    font-weight:400;
+    line-height: 34px;
+    margin-bottom:5px;
+  }
+  h5 {
+    /* Sleep through your d: */
+    font-family: $libre;
+    font-size: 24px;
+    color: #079698;
+    font-weight:400;
+    font-style:italic;
+    line-height: 35px;
+  }
+  p {
+    font-family: $proxima;
+    font-size: 18px;
+    color: #5E6260;
+    line-height: 22px;
+    font-weight:400;
+  }
+  @media (max-width:767px) {
+    h2 {
+      font-size:48px;
+      margin-bottom:50px;
+    }
+    h4 {
+      font-size:30px;
+    }
+    h5 {
+      font-size:20px;
+    }
+    p {
+      font-size:16px;
+    }
+  }
+  @media (max-width:480px) {
+    h2 {
+      font-size:36px;
+      line-height:38px;
+    }
+    h4 {
+      font-size:24px;
+    }
+    h5 {
+      font-size:18px;
+      line-height:22px;
+    }
+  }
+}
+#services-1 {
+  background:#F8F8F4;
+}
+#services-2 {
+  background: #FFF;
+}
+#services-3 {
+  background:#EBEBE8;
+}
+#services-4 {
+  background:#F8F8F4;
+}
