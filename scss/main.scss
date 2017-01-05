@@ -1,4 +1,8 @@
 // Canvas Dependencies //
+$proxima: 'Proxima Nova', sans-serif;
+$third-font: 'Roboto Condensed', sans-serif;
+$button-color: orange;
+$button-hover:gray;
 
 @import "dependencies/bootstrap.scss";
 @import "dependencies/style.scss";
@@ -19,16 +23,14 @@
 
 // Variables to define first //
 
-$primary-font: 'Lato', sans-serif;
-$secondary-font: 'Open Sans', sans-serif;
-$third-font: 'Roboto Condensed', sans-serif;
-$button-color: orange;
-$button-hover:gray;
+
+
+
 
 // CSS //
 
 body {
-  font-family:$primary-font;
+
 }
 
 h1 {
