@@ -25788,6 +25788,9 @@ Copyright (c) 2014 Daniel Eden
   padding-top: 39px;
   padding-bottom: 39px; }
 
+#primary-menu-trigger {
+  font-size: 25px; }
+
 #copyrights {
   background: grey; }
 
@@ -26138,6 +26141,171 @@ h4.modal-title {
   height: 100%;
   border-bottom: 5px solid #FFF; }
 
+#slider, .swiper-wrapper {
+  max-height: 800px; }
+
+#slide-1, #slide-2, #slide-3 {
+  background-position: 100% 100%; }
+
+@media (max-width: 1300px) {
+  #slide-1 {
+    background-position-x: 80%; } }
+
+#slide-1 h2 {
+  font-size: 84px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  line-height: 45px;
+  margin-bottom: 30px; }
+  @media (max-width: 1500px) {
+    #slide-1 h2 {
+      font-size: 64px;
+      line-height: 35px; } }
+  @media (max-width: 1150px) {
+    #slide-1 h2 {
+      font-size: 48px;
+      line-height: 18px;
+      margin-bottom: 25px; } }
+
+#slide-1 p:nth-of-type(1), #slide-1 p:nth-of-type(2) {
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 32px;
+  color: #66C4C5;
+  font-style: italic;
+  line-height: 30px; }
+  @media (max-width: 1500px) {
+    #slide-1 p:nth-of-type(1), #slide-1 p:nth-of-type(2) {
+      font-size: 26px;
+      line-height: 25px; } }
+  @media (max-width: 1150px) {
+    #slide-1 p:nth-of-type(1), #slide-1 p:nth-of-type(2) {
+      font-size: 24px;
+      line-height: 20px; } }
+
+#slide-1 p:nth-of-type(3) {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-top: 80px; }
+  @media (max-width: 1500px) {
+    #slide-1 p:nth-of-type(3) {
+      font-size: 26px;
+      margin-top: 60px; } }
+  @media (max-width: 1150px) {
+    #slide-1 p:nth-of-type(3) {
+      font-size: 24px;
+      line-height: 20px;
+      margin-top: 50px; } }
+
+#slide-1 .button {
+  margin-top: 25px; }
+  @media (max-width: 1500px) {
+    #slide-1 .button {
+      margin-top: 20px; } }
+
+@media (max-width: 1550px) {
+  #slide-2 {
+    background-position-x: 80%; } }
+
+@media (max-width: 1200px) {
+  #slide-2 {
+    background-position-x: 100%; } }
+
+#slide-2 .slider-caption {
+  padding-right: 130px; }
+  @media (max-width: 1250px) {
+    #slide-2 .slider-caption {
+      padding-right: 180px; } }
+
+#slide-2 h2 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  color: #1B3C3C;
+  line-height: 25px; }
+
+#slide-2 p:nth-of-type(1) {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-size: 21px;
+  color: #2F3231;
+  line-height: 28px;
+  margin-top: 10px;
+  font-weight: 400; }
+
+#slide-2 .star-set {
+  margin-top: 50px; }
+
+#slide-2 .icon-star3 {
+  color: #EC9E05;
+  font-size: 32px; }
+
+#slide-2 .slide-author {
+  margin-left: 40px; }
+
+#slide-2 .button {
+  margin-top: 40px; }
+
+@media (max-width: 1600px) {
+  #slide-3 {
+    background-position-x: 75%; } }
+
+@media (max-width: 1200px) {
+  #slide-3 {
+    background-position: 85%; }
+    #slide-3 .slider-caption {
+      padding-right: 5%;
+      margin-left: -5%;
+      margin-top: -100px; } }
+
+@media (max-width: 1050px) {
+  #slide-3 {
+    background-position-x: 80%; }
+    #slide-3 .slider-caption {
+      margin-left: -2%; } }
+
+#slide-3 h2 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 80px;
+  color: #1B3C3C;
+  line-height: 65px;
+  font-weight: 400;
+  margin-bottom: 10px; }
+  @media (max-width: 1200px) {
+    #slide-3 h2 {
+      font-size: 54px;
+      margin-bottom: 0; } }
+
+#slide-3 p:nth-of-type(1) {
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 38px;
+  color: #079698;
+  line-height: 35px;
+  font-style: italic;
+  margin-bottom: 50px; }
+  @media (max-width: 1200px) {
+    #slide-3 p:nth-of-type(1) {
+      font-size: 28px;
+      margin-top: -5px;
+      margin-bottom: 30px; } }
+
+#slide-3 p:nth-of-type(2), #slide-3 p:nth-of-type(3) {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 36px;
+  color: #1B3C3C;
+  line-height: 25px; }
+  @media (max-width: 1200px) {
+    #slide-3 p:nth-of-type(2), #slide-3 p:nth-of-type(3) {
+      font-size: 28px;
+      line-height: 20px; } }
+
+#slide-3 .button {
+  margin-top: 30px;
+  background: #0AABAD; }
+  @media (max-width: 1200px) {
+    #slide-3 .button {
+      margin-top: 20px; } }
+
 h1 {
   font-size: 64px; }
 
@@ -26160,11 +26328,10 @@ p {
   font-size: 18px; }
 
 .button {
-  background: orange;
+  background: #0AABAD;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
   padding-top: 2px; }
-
-.button:hover {
-  background: gray; }
 
 .content-wrap {
   padding: 0; }

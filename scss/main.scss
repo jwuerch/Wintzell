@@ -1,8 +1,6 @@
 // Canvas Dependencies //
 $proxima: 'Proxima Nova', sans-serif;
-$third-font: 'Roboto Condensed', sans-serif;
-$button-color: orange;
-$button-hover:gray;
+$libre: 'Libre Baskerville', sans-serif;
 
 @import "dependencies/bootstrap.scss";
 @import "dependencies/style.scss";
@@ -16,6 +14,7 @@ $button-hover:gray;
 @import "dependencies/contact-modal.scss";
 @import "dependencies/specials.scss";
 @import "dependencies/location-section.scss";
+@import "dependencies/slides.scss";
 
 
 // End Canvas Dependencies //
@@ -62,12 +61,13 @@ p {
 }
 
 .button {
-  background:$button-color;
+  background: #0AABAD;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
   padding-top:2px;
+
 }
-.button:hover {
-  background:$button-hover
-}
+
 .content-wrap {
   padding:0;
 }
