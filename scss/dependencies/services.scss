@@ -74,3 +74,73 @@
 #services-4 {
   background:#F8F8F4;
 }
+#services-5 {
+  h2 {
+    font-family: $proxima;
+    font-weight:500;
+    font-size: 60px;
+    color: #1B3C3C;
+    letter-spacing: -0.84px;
+    line-height: 40px;
+    margin-bottom:10px;
+  }
+  h3 {
+    font-family: $libre;
+    font-style:italic;
+    font-size: 24px;
+    color: #079698;
+    letter-spacing: -0.34px;
+    line-height: 35px;
+  }
+  .image-carousel {
+    h6 {
+      font-family: $proxima;
+      font-size: 32px;
+      color: #1B3C3C;
+      font-weight:400;
+    }
+    .owl-nav {
+      opacity:1 !important;
+      border-radius:0;
+    }
+    .owl-prev {
+      border-radius:0;
+
+      left:0px !important;
+      opacity:1 !important;
+      background:#079698;
+      color:#FFF;
+      border:none;
+      padding-top:2px;
+
+    }
+    .owl-next {
+      opacity:1 !important;
+      border-radius:0;
+      background:#079698;
+      color:#FFF;
+      border:none;
+      padding-top:2px;
+
+
+      right:0px !important;
+    }
+  }
+}
+
+.service-modal {
+  img {
+    margin-bottom:20px;
+  }
+  h4 {
+    font-family:$proxima;
+    font-weight:400;
+  }
+  p {
+    font-family:$proxima;
+    margin-bottom:20px;
+  }
+  .modal-dialog {
+    background:#FFF;
+  }
+}

@@ -26459,7 +26459,7 @@ h4.modal-title {
       #membership h2 {
         font-size: 54px;
         margin-bottom: 0; } }
-    @media (max-width: 600px) {
+    @media (max-width: 767px) {
       #membership h2 {
         font-size: 48px; } }
     @media (max-width: 500px) {
@@ -26664,6 +26664,65 @@ h4.modal-title {
 
 #services-4 {
   background: #F8F8F4; }
+
+#services-5 h2 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  color: #1B3C3C;
+  letter-spacing: -0.84px;
+  line-height: 40px;
+  margin-bottom: 10px; }
+
+#services-5 h3 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  color: #079698;
+  letter-spacing: -0.34px;
+  line-height: 35px; }
+
+#services-5 .image-carousel h6 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 32px;
+  color: #1B3C3C;
+  font-weight: 400; }
+
+#services-5 .image-carousel .owl-nav {
+  opacity: 1 !important;
+  border-radius: 0; }
+
+#services-5 .image-carousel .owl-prev {
+  border-radius: 0;
+  left: 0px !important;
+  opacity: 1 !important;
+  background: #079698;
+  color: #FFF;
+  border: none;
+  padding-top: 2px; }
+
+#services-5 .image-carousel .owl-next {
+  opacity: 1 !important;
+  border-radius: 0;
+  background: #079698;
+  color: #FFF;
+  border: none;
+  padding-top: 2px;
+  right: 0px !important; }
+
+.service-modal img {
+  margin-bottom: 20px; }
+
+.service-modal h4 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400; }
+
+.service-modal p {
+  font-family: "Proxima Nova", sans-serif;
+  margin-bottom: 20px; }
+
+.service-modal .modal-dialog {
+  background: #FFF; }
 
 h1 {
   font-size: 64px; }
