@@ -26151,6 +26151,10 @@ h4.modal-title {
   #slide-1 {
     background-position-x: 80%; } }
 
+@media (max-width: 1200px) {
+  #slide-1 {
+    background-position-x: 85%; } }
+
 #slide-1 h2 {
   font-size: 84px;
   font-family: "Proxima Nova", sans-serif;
@@ -26161,7 +26165,7 @@ h4.modal-title {
     #slide-1 h2 {
       font-size: 64px;
       line-height: 35px; } }
-  @media (max-width: 1150px) {
+  @media (max-width: 1200px) {
     #slide-1 h2 {
       font-size: 48px;
       line-height: 18px;
@@ -26177,7 +26181,7 @@ h4.modal-title {
     #slide-1 p:nth-of-type(1), #slide-1 p:nth-of-type(2) {
       font-size: 26px;
       line-height: 25px; } }
-  @media (max-width: 1150px) {
+  @media (max-width: 1200px) {
     #slide-1 p:nth-of-type(1), #slide-1 p:nth-of-type(2) {
       font-size: 24px;
       line-height: 20px; } }
@@ -26191,9 +26195,9 @@ h4.modal-title {
     #slide-1 p:nth-of-type(3) {
       font-size: 26px;
       margin-top: 60px; } }
-  @media (max-width: 1150px) {
+  @media (max-width: 1200px) {
     #slide-1 p:nth-of-type(3) {
-      font-size: 24px;
+      font-size: 20px;
       line-height: 20px;
       margin-top: 50px; } }
 
@@ -26305,6 +26309,11 @@ h4.modal-title {
   @media (max-width: 1200px) {
     #slide-3 .button {
       margin-top: 20px; } }
+
+.one-page-arrow {
+  color: #FFF; }
+  .one-page-arrow:hover {
+    color: #FFF; }
 
 h1 {
   font-size: 64px; }
