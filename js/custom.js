@@ -41,4 +41,8 @@
             $('ul.mobile-primary-menu').toggleClass("show");
         }
     });
+
+    $('.close').click(function(){
+        $('iframe').attr('src', $('iframe').attr('src'));
+    });
 })(jQuery);

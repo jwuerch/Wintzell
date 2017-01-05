@@ -26432,6 +26432,8 @@ h4.modal-title {
       color: #5E6260; }
   #reviews .bf-pro:hover {
     text-decoration: none !important; }
+  #reviews .btn-wrap {
+    text-align: center; }
 
 #membership {
   padding: 150px 0;
@@ -26556,6 +26558,50 @@ h4.modal-title {
 
 .insurance-below img {
   width: 100%; }
+
+#office-tour h2 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 60px;
+  color: #1B3C3C;
+  letter-spacing: -0.84px;
+  line-height: 68px; }
+  @media (max-width: 767px) {
+    #office-tour h2 {
+      font-size: 48px; } }
+  @media (max-width: 600px) {
+    #office-tour h2 {
+      font-size: 32px; } }
+
+#office-tour .owl-prev, #office-tour .owl-next {
+  opacity: 1 !important;
+  border-radius: 0;
+  background: #079698;
+  color: #FFF;
+  border: none;
+  padding-top: 2px; }
+
+#office-tour .owl-nav {
+  border-radius: 0; }
+
+#office-tour .owl-carousel .owl-nav .owl-prev {
+  left: 0px !important;
+  opacity: 1 !important; }
+
+#office-tour .owl-carousel .owl-nav .owl-next {
+  right: 0px !important;
+  opacity: 1 !important; }
+
+#office-tour .btn-wrap {
+  text-align: center; }
+
+#office-tour .button {
+  margin-top: 30px; }
+
+#office-tour-modal .modal-dialog {
+  background: #FFF; }
+
+#office-tour-modal .modal-header {
+  border-bottom: none; }
 
 h1 {
   font-size: 64px; }

@@ -1,0 +1,53 @@
+#office-tour {
+  h2 {
+    font-family: $proxima;
+    font-size: 60px;
+    color: #1B3C3C;
+    letter-spacing: -0.84px;
+    line-height: 68px;
+    @media (max-width:767px) {
+      font-size:48px;
+    }
+    @media (max-width:600px) {
+      font-size:32px;
+    }
+  }
+  .owl-prev, .owl-next {
+    opacity:1 !important;
+    border-radius:0;
+    background:#079698;
+    color:#FFF;
+    border:none;
+    padding-top:2px;
+
+  }
+  .owl-nav {
+    border-radius:0;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    left:0px !important;
+    opacity:1 !important;
+
+  }
+  .owl-carousel .owl-nav .owl-next {
+    right:0px !important;
+    opacity:1 !important;
+
+  }
+  .btn-wrap {
+    text-align:center;
+  }
+  .button {
+    margin-top:30px;
+  }
+
+}
+
+#office-tour-modal {
+  .modal-dialog {
+    background:#FFF;
+  }
+  .modal-header {
+    border-bottom:none;
+  }
+}
