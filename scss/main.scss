@@ -15,6 +15,7 @@ $libre: 'Libre Baskerville', sans-serif;
 @import "dependencies/specials.scss";
 @import "dependencies/location-section.scss";
 @import "dependencies/slides.scss";
+@import "dependencies/meet-the-doctors.scss";
 
 
 // End Canvas Dependencies //
@@ -80,4 +81,20 @@ p {
 
 .content-wrap {
   padding:0;
+}
+section {
+  h2 {
+    font-family: $proxima;
+    font-size: 60px;
+    color: #1B3C3C;
+    line-height: 68px;
+    font-weight:400;
+    @media (max-width:767px) {
+      font-size:44px;
+    }
+  }
+  padding:60px 0;
+  @media (max-width:767px) {
+    padding:40px 0;
+  }
 }
