@@ -26400,6 +26400,39 @@ h4.modal-title {
 #meet-the-doctors-1 {
   background: #EBEBE8; }
 
+#reviews {
+  background-attachment: fixed;
+  background-size: cover;
+  background: url("../images/reviews-bkgd.jpg"); }
+  #reviews h2 {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 60px;
+    color: #1B3C3C;
+    letter-spacing: -0.84px;
+    line-height: 60px; }
+    @media (max-width: 767px) {
+      #reviews h2 {
+        font-size: 48px;
+        line-height: 50px; } }
+    @media (max-width: 600px) {
+      #reviews h2 {
+        font-size: 34px;
+        line-height: 35px; } }
+  @media (max-width: 600px) {
+    #reviews iframe {
+      max-height: 400px; } }
+  #reviews .bf-dv, #reviews .bf-pro {
+    font-family: "Libre Baskerville", sans-serif;
+    font-style: italic !important;
+    font-size: 14px;
+    color: #5E6260;
+    letter-spacing: -0.2px;
+    line-height: 20px; }
+    #reviews .bf-dv a, #reviews .bf-pro a {
+      color: #5E6260; }
+  #reviews .bf-pro:hover {
+    text-decoration: none !important; }
+
 h1 {
   font-size: 64px; }
 
