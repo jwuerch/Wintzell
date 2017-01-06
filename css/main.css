@@ -26112,7 +26112,7 @@ h4.modal-title {
   font-family: "Proxima Nova", sans-serif;
   font-size: 28px;
   color: #1B3C3C;
-  line-height: 20px;
+  line-height: 25px;
   margin-bottom: 3px; }
   @media (max-width: 500px) {
     #location .p-1, #location .p-2 {
@@ -26848,7 +26848,8 @@ h4.modal-title {
       margin-bottom: 20px; }
       @media (max-width: 767px) {
         #patient-forms .btn-wrap .button {
-          width: 240px; } }
+          width: 240px;
+          font-size: 16px; } }
 
 h1 {
   font-size: 64px; }
