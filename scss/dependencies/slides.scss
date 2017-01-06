@@ -1,5 +1,6 @@
 #slider, .swiper-wrapper {
   max-height:800px;
+  padding:0;
 }
 #slide-1, #slide-2, #slide-3 {
   background-position:100% 100%;
@@ -177,4 +178,6 @@
   &:hover {
     color:#FFF;
   }
+  position:relative;
+  top:-50px;
 }
