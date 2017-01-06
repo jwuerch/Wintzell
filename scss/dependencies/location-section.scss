@@ -1,85 +1,131 @@
+#location {
+  #google-map {
+    max-width:544px;
+    max-height:333px;
+    margin-bottom:30px;
+    @media (max-width:991px) {
+      margin:0 auto;
+      margin-bottom:30px;
+    }
+    @media (max-width:600px) {
+      max-width:350px;
+      height:285px;
+    }
+  }
+  a:hover {
+    text-decoration:none;
+  }
+  p {
+    font-weight:400;
+  }
+  img {
+    max-height:328px;
+    margin-bottom:50px;
+  }
+  .p-1, .p-2 {
+    font-family: $proxima;
+    font-size: 28px;
+    color: #1B3C3C;
+    line-height: 20px;
+    margin-bottom:3px;
+    @media (max-width:500px) {
+      font-size:20px;
+    }
+  }
+  .p-3 {
+    margin-top:-3px;
+    font-family: $libre;
+    font-style:italic;
+    font-size: 19px;
+    color: #079698;
+    letter-spacing: -0.27px;
+    line-height: 35px;
+    margin-bottom:50px;
+  }
+  .p-4 {
+    font-family: $proxima;
+    font-size: 21px;
+    color: #5E6260;
+    line-height: 21px;
+    margin-bottom:0px;
+  }
+  .p-5 a {
+    font-family: $proxima;
+    font-size: 40px;
+    color: #079698;
+    line-height: 40px;
+  }
+  .p-5 {
+    margin-bottom:0px;
+  }
+  .button {
+    max-width:260px;
+    margin-bottom:20px;
+    font-size:16px;
+  }
+  .p-6, .p-7 a {
+    margin-bottom:0;
+    font-family: $proxima;
+    font-size: 21px;
+    color: #5E6260;
+    line-height: 21px;
+  }
+  .p-8, .p-9 {
+    font-family: $proxima;
+    font-size: 21px;
+    color: #5E6260;
+    line-height: 24px;
+    margin-bottom:0;
+  }
+  .p-10 {
+    margin-top:10px;
+    a {
+      text-decoration:underline;
+      font-family: $proxima;
+      font-size: 16px;
+      color: #079698;
+      letter-spacing: -0.23px;
+      line-height: 22px;
+    }
+  }
+  .p-11 {
+    margin-bottom:5px;
+  }
+  .days p, .hours p {
+    margin-bottom:0;
+    font-family: $proxima;
+    font-size: 16px;
+    color: #5E6260;
+    line-height: 22px;
+  }
+  .days p {
+    margin-right:20px;
+  }
+  .hours-wrap {
+    display:flex;
+    justify-content:center;
+  }
+  .p-12 {
+    font-family: $libre;
+    font-style:italic;
+    font-size: 14px;
+    color: #079698;
+    letter-spacing: -0.2px;
+    line-height: 18px;
+    margin-top:10px;
+  }
 
-/** CONTACT **/
 
-$p-color: #6F6D6A;
-$click-map-color:#846A20;
-
-
-#contact-form-overlay-mini {
-  padding-top:15px;
-  padding-bottom:15px;
-}
-#contact img {
-  margin-bottom:20px;
-}
-#contact p {
-  color:$p-color;
-  font-size:16px;
-  line-height:21px;
 }
 
-#contact .click-map  {
-  color:$click-map-color;
-  margin-top:-5px;
-  font-size:16px;
-  text-decoration:underline;
+#location > div > div > div:nth-child(2) > div > div {
+  width: 50%;
+  @media (max-width:991px) {
+    width:100%;
+  }
 }
-#contact .text-phone-1 {
-  font-size: 36px;
-  font-weight:900;
-  font-family: 'Lato', sans-serif;
-  color: #CBA357;
-  margin-bottom:20px;
-}
-.device-xxs #contact .text-phone-1 {
-  font-size:26px;
-}
-.device-xxs #contact .text-phone-2 {
-  font-size:23px;
-}
-.device-xxs #contact .button {
-  font-size:16px;
-  width:100%;
-  padding-left:15px;
-  padding-right:15px;
-}
-
-#contact .text-phone-2 {
-  font-size: 26px;
-  font-weight:900;
-  font-family: 'Lato', sans-serif;
-  color: #CBA357;
-}
-.patient-hotline {
-  margin-bottom:7px;
-}
-#contact .button {
-  width:100%;
-  letter-spacing:0;
-  font-size:18px;
-  margin-bottom:20px;
-  padding-top:2px;
-}
-#contact-form-overlay-mini > div:nth-child(2) > a.click-map:hover {
-  color:#846A20;
-}
-#contact-form-overlay-mini {
-  border-radius: 12px;
-}
-#contact-form-overlay-mini > div:nth-child(2) > a:nth-child(5):hover, #contact-form-overlay-mini > div:nth-child(2) > a:nth-child(8):hover {
-  text-decoration:none;
-}
-#contact {
-  max-height:600px;
-}
-.device-xxs #contact-form-overlay-mini {
-  padding-left:15px;
-  padding-right:15px;
-}
-.device-xs #contact-form-overlay-mini, .device-xxs #contact-form-overlay-mini {
-  box-shadow:none;
-}
-#google-map {
-  height:100%;
-  border-bottom:5px solid #FFF;
+#location > div > div > div:nth-child(2) > div {
+  @media (max-width:991px) {
+    padding-left:0;
+  }
 }
