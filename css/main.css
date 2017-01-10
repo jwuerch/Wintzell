@@ -25859,11 +25859,17 @@ a.social-icon.si-colored {
     color: #5E6260;
     font-weight: 400;
     margin-bottom: -15px; }
+    @media (max-width: 600px) {
+      .phone-slug .new-hotline-text {
+        margin-bottom: -10px; } }
   .phone-slug .new-hotline-phone {
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
     color: #079698;
     letter-spacing: -0.56px; }
+    @media (max-width: 600px) {
+      .phone-slug .new-hotline-phone {
+        font-size: 30px; } }
   .phone-slug .old-hotline-text {
     /* Existing patients of: */
     font-family: "Montserrat", sans-serif;

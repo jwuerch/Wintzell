@@ -22,6 +22,9 @@
     color: #5E6260;
     font-weight:400;
     margin-bottom:-15px;
+    @media (max-width:600px) {
+      margin-bottom:-10px;
+    }
 
   }
   .new-hotline-phone {
@@ -29,6 +32,9 @@
     font-size: 40px;
     color: #079698;
     letter-spacing: -0.56px;
+    @media (max-width:600px) {
+      font-size:30px;
+    }
   }
   .old-hotline-text {
     /* Existing patients of: */
