@@ -25752,7 +25752,7 @@ Copyright (c) 2014 Daniel Eden
   color: #717574;
   font-size: 21px;
   font-weight: 400;
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding-top: 39px;
   padding-bottom: 39px; }
   @media (max-width: 1280px) {
@@ -25763,6 +25763,9 @@ Copyright (c) 2014 Daniel Eden
       font-size: 16px;
       padding-left: 8px;
       padding-right: 8px; } }
+  @media (max-width: 1020px) {
+    #primary-menu ul li > a {
+      font-size: 15px; } }
 
 #primary-menu ul li:nth-child(1) > a {
   color: #079698; }
@@ -25851,19 +25854,19 @@ a.social-icon.si-colored {
         border-left: none; } }
   .phone-slug .new-hotline-text {
     /* New Patient Hotline: */
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 21px;
     color: #5E6260;
     font-weight: 400;
     margin-bottom: -15px; }
   .phone-slug .new-hotline-phone {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     color: #079698;
     letter-spacing: -0.56px; }
   .phone-slug .old-hotline-text {
     /* Existing patients of: */
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 21px;
     color: #5E6260;
     line-height: 21px;
@@ -25872,7 +25875,7 @@ a.social-icon.si-colored {
       .phone-slug .old-hotline-text {
         line-height: 28px !important; } }
   .phone-slug .old-hotline-phone {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 21px;
     color: #5E6260;
     line-height: 21px;
@@ -25933,7 +25936,7 @@ h4.modal-title {
   #specials h2 {
     margin-bottom: 0;
     font-weight: 400;
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 60px;
     color: #1B3C3C;
     line-height: 50px; }
@@ -25975,7 +25978,7 @@ h4.modal-title {
         font-weight: 400;
         margin-bottom: 10px;
         margin-top: 30px;
-        font-family: "Proxima Nova", sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 18px;
         color: #5E6260;
         letter-spacing: -0.25px;
@@ -26027,7 +26030,7 @@ h4.modal-title {
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.23);
       border-radius: 100px 0 100px 0; }
       #specials .three-blocks .block h6 {
-        font-family: "Proxima Nova", sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 40px;
         color: #079698;
         line-height: 30px; }
@@ -26112,7 +26115,7 @@ h4.modal-title {
   margin-bottom: 50px; }
 
 #location .p-1, #location .p-2 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 28px;
   color: #1B3C3C;
   line-height: 25px;
@@ -26132,14 +26135,14 @@ h4.modal-title {
   margin-bottom: 50px; }
 
 #location .p-4 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 21px;
   color: #5E6260;
   line-height: 21px;
   margin-bottom: 0px; }
 
 #location .p-5 a {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
   color: #079698;
   line-height: 40px; }
@@ -26154,13 +26157,13 @@ h4.modal-title {
 
 #location .p-6, #location .p-7 a {
   margin-bottom: 0;
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 21px;
   color: #5E6260;
   line-height: 21px; }
 
 #location .p-8, #location .p-9 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 21px;
   color: #5E6260;
   line-height: 24px;
@@ -26170,7 +26173,7 @@ h4.modal-title {
   margin-top: 10px; }
   #location .p-10 a {
     text-decoration: underline;
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: #079698;
     letter-spacing: -0.23px;
@@ -26181,7 +26184,7 @@ h4.modal-title {
 
 #location .days p, #location .hours p {
   margin-bottom: 0;
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #5E6260;
   line-height: 22px; }
@@ -26212,9 +26215,12 @@ h4.modal-title {
   #location > div > div > div:nth-child(2) > div {
     padding-left: 0; } }
 
-#slider, .swiper-wrapper {
+#slider, .swiper-wrapper, .slider-parallax-inner, .swiper-slide {
   max-height: 800px;
   padding: 0; }
+  @media (max-width: 1200px) {
+    #slider, .swiper-wrapper, .slider-parallax-inner, .swiper-slide {
+      max-height: 525px; } }
 
 #slide-1, #slide-2, #slide-3 {
   background-position: 100% 100%; }
@@ -26229,7 +26235,7 @@ h4.modal-title {
 
 #slide-1 h2 {
   font-size: 84px;
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 45px;
   margin-bottom: 30px; }
@@ -26259,7 +26265,7 @@ h4.modal-title {
       line-height: 20px; } }
 
 #slide-1 p:nth-of-type(3) {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   color: #FFFFFF;
   margin-top: 80px; }
@@ -26294,7 +26300,7 @@ h4.modal-title {
       padding-right: 180px; } }
 
 #slide-2 h2 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 52px;
   color: #1B3C3C;
@@ -26322,6 +26328,18 @@ h4.modal-title {
 #slide-2 .button {
   margin-top: 40px; }
 
+@media (max-width: 1200px) {
+  #slide-2 h2 {
+    font-size: 36px;
+    line-height: 10px; }
+  #slide-2 .star-set {
+    margin-top: -10px; }
+  #slide-2 p:nth-of-type(1) {
+    font-size: 18px;
+    line-height: 24px; }
+  #slide-2 .button {
+    margin-top: 20px; } }
+
 @media (max-width: 1600px) {
   #slide-3 {
     background-position-x: 75%; } }
@@ -26330,18 +26348,16 @@ h4.modal-title {
   #slide-3 {
     background-position: 85%; }
     #slide-3 .slider-caption {
-      padding-right: 5%;
-      margin-left: -5%;
-      margin-top: -100px; } }
+      padding-right: 5%; } }
 
 @media (max-width: 1050px) {
   #slide-3 {
     background-position-x: 80%; }
     #slide-3 .slider-caption {
-      margin-left: -2%; } }
+      margin: 0; } }
 
 #slide-3 h2 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 80px;
   color: #1B3C3C;
   line-height: 65px;
@@ -26366,7 +26382,7 @@ h4.modal-title {
       margin-bottom: 30px; } }
 
 #slide-3 p:nth-of-type(2), #slide-3 p:nth-of-type(3) {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 36px;
   color: #1B3C3C;
   line-height: 25px; }
@@ -26429,7 +26445,7 @@ h4.modal-title {
       margin-bottom: 10px; } }
 
 #meet-the-doctors-1 p, #meet-the-doctors-2 p {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   color: #5E6260;
   letter-spacing: -0.25px;
@@ -26460,15 +26476,17 @@ h4.modal-title {
   background-position-x: 100%; }
 
 #reviews {
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   background-size: cover;
+  background-position: 100% 100%;
   background: url("../images/reviews-bkgd.jpg"); }
   #reviews h2 {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 60px;
     color: #1B3C3C;
     letter-spacing: -0.84px;
-    line-height: 60px; }
+    line-height: 60px;
+    margin-bottom: 30px; }
     @media (max-width: 767px) {
       #reviews h2 {
         font-size: 48px;
@@ -26486,9 +26504,12 @@ h4.modal-title {
     font-size: 14px;
     color: #5E6260;
     letter-spacing: -0.2px;
-    line-height: 20px; }
+    line-height: 20px;
+    margin-top: 10px !important; }
     #reviews .bf-dv a, #reviews .bf-pro a {
-      color: #5E6260; }
+      color: #5E6260 !important; }
+      #reviews .bf-dv a:hover, #reviews .bf-pro a:hover {
+        text-decoration: underline !important; }
   #reviews .bf-pro:hover {
     text-decoration: none !important; }
   #reviews .btn-wrap {
@@ -26507,7 +26528,7 @@ h4.modal-title {
     #membership {
       padding: 50px 0; } }
   #membership h2 {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-size: 64px;
     color: #1B3C3C;
@@ -26553,7 +26574,7 @@ h4.modal-title {
         font-size: 18px; } }
   #membership h6 {
     text-transform: uppercase;
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 36px;
     color: #1B3C3C;
     font-weight: 400; }
@@ -26575,20 +26596,21 @@ h4.modal-title {
       #membership h6:nth-of-type(2) {
         margin-bottom: 30px; } }
   #membership li {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 21px;
     font-weight: 400;
     color: #1B3C3C;
     line-height: 35px; }
-    @media (max-width: 1500px) {
-      #membership li {
-        font-size: 19px; } }
     @media (max-width: 1200px) {
       #membership li {
         list-style: none; } }
     @media (max-width: 991px) {
       #membership li {
-        list-style: initial; } }
+        list-style: none; } }
+    @media (max-width: 767px) {
+      #membership li {
+        line-height: 25px;
+        margin-bottom: 20px; } }
     @media (max-width: 550px) {
       #membership li {
         font-size: 16px; } }
@@ -26609,9 +26631,6 @@ h4.modal-title {
       padding-bottom: 20px; }
       #membership .col-md-12 {
         text-align: center; } }
-    @media (max-width: 1200px) and (max-width: 991px) {
-      #membership .col-md-12 {
-        text-align: left; } }
   #membership img {
     width: 100%; }
 
@@ -26621,7 +26640,7 @@ h4.modal-title {
 #office-tour {
   background: #EBEBE8; }
   #office-tour h2 {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 60px;
     color: #1B3C3C;
     letter-spacing: -0.84px;
@@ -26659,7 +26678,7 @@ h4.modal-title {
   border-bottom: none; }
 
 #services-1 h2, #services-2 h2, #services-3 h2, #services-4 h2 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 60px;
   color: #1B3C3C;
   line-height: 45px;
@@ -26668,7 +26687,7 @@ h4.modal-title {
 
 #services-1 h4, #services-2 h4, #services-3 h4, #services-4 h4 {
   /* Sedation Dentistry: */
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
   color: #1B3C3C;
   font-weight: 400;
@@ -26685,7 +26704,7 @@ h4.modal-title {
   line-height: 35px; }
 
 #services-1 p, #services-2 p, #services-3 p, #services-4 p {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   color: #5E6260;
   line-height: 22px;
@@ -26725,7 +26744,7 @@ h4.modal-title {
   background: #F8F8F4; }
 
 #services-5 h2 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 60px;
   color: #1B3C3C;
@@ -26756,7 +26775,7 @@ h4.modal-title {
       line-height: 28px; } }
 
 #services-5 .image-carousel h6 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 32px;
   color: #1B3C3C;
   font-weight: 400; }
@@ -26787,11 +26806,11 @@ h4.modal-title {
   margin-bottom: 20px; }
 
 .service-modal h4 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400; }
 
 .service-modal p {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 20px; }
 
 .service-modal .modal-dialog {
@@ -26805,7 +26824,7 @@ h4.modal-title {
     color: #1B3C3C;
     letter-spacing: -0.84px;
     line-height: 68px;
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 0; }
   #patient-forms h6 {
     font-family: "Libre Baskerville", sans-serif;
@@ -26881,7 +26900,7 @@ p {
   border-radius: 30px;
   padding-top: 2px;
   box-shadow: none;
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 21px; }
   .button:hover {
     background: #079698; }
@@ -26897,7 +26916,7 @@ p {
 section {
   padding: 60px 0; }
   section h2 {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 60px;
     line-height: 68px;
     font-weight: 400; }

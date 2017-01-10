@@ -92,13 +92,18 @@
     color: #1B3C3C;
     line-height: 35px;
     @media (max-width:1500px) {
-      font-size:19px;
     }
     @media (max-width:1200px) {
       list-style:none;
     }
     @media (max-width:991px) {
-      list-style:initial;
+      list-style:none;
+    }
+    @media (max-width:767px) {
+
+        line-height:25px;
+        margin-bottom:20px;
+
     }
     @media (max-width:550px) {
       font-size:16px;
@@ -122,7 +127,6 @@
     .col-md-12 {
       text-align:center;
       @media (max-width:991px) {
-        text-align:left;
       }
     }
   }
